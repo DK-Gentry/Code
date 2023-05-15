@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2023.2.0-eap1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DearlerPlatform.Common\DearlerPlatform.Common.csproj" />
+    <ProjectReference Include="..\DearlerPlatform.Core\DearlerPlatform.Core.csproj" />
+    <ProjectReference Include="..\DearlerPlatform.Extensions\DearlerPlatform.Extensions.csproj" />
+    <ProjectReference Include="..\DearlerPlatform.Service\DearlerPlatform.Service.csproj" />
+  </ItemGroup>
+
+</Project>
